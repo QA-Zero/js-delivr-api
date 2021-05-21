@@ -1,1 +1,1 @@
-# js-delivr-api
+**[Result](https://qa-zero.github.io/js-delivr-api/dist/)**
