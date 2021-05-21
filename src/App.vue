@@ -30,7 +30,6 @@
         :headers="table.header"
         :items="table.content"
         :footer-props="table.footerProps"
-        :pagination.sync="table.pageCurrent"
         class="table"
         @click:row="openDialog"
       />
@@ -137,7 +136,6 @@ export default {
         footerProps: {
           'items-per-page-options': [10],
         },
-        pageCurrent: 1,
       },
       selectedRow: {},
       dialog: false,
